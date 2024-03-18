@@ -17,8 +17,7 @@ How to Run
     Clone this repository or download the source code.
     Navigate to the project directory via the command line.
     Execute the program by running:
-
-go run .
+    go run .
 
 #### Program Usage
 
@@ -34,19 +33,9 @@ Ensure your input is exactly 8 bits long and consists of 0s and 1s only.
 
 Example Interaction
 
-Choose algorithm: 
-1. S-Box Substitution
-2. P-Box Permutation 
- 
-Enter the number of the algorithm: 1
+![image](https://github.com/slidxr/lw4/assets/47353881/2463dbbb-ae66-494c-83c5-2e14afea7259)
+![image](https://github.com/slidxr/lw4/assets/47353881/3ecb2d6f-9557-4ce5-92ba-803ae0a65b54)
 
-Enter an 8-bit input (binary): 11010011
-
-S-Box substitution: 11010011 -> 01101001
-
-Reverse S-Box substitution: 01101001 -> 11010011
-
-Expected Results
 
 The program will display the result of the chosen cryptographic operation on your input, followed by the inverse operation's result, verifying the reversibility of the process.
 
@@ -60,3 +49,5 @@ For P-Box Permutation:
     The permuted binary value based on the defined permutation pattern will be displayed.
     The inverse permutation result, which should revert to the original input, will be shown afterward.
 
+#### Go Test
+![image](https://github.com/slidxr/lw4/assets/47353881/d9b1e2ba-0885-42f3-b822-3dd1e24445a9)
